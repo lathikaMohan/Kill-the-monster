@@ -9,7 +9,7 @@ var hero,monster,rope,ground;
 var bg, backgroundImg;
 
 function preload() {
- getTime();
+ //getTime();
  bg = loadImage("gamingbackground2.png");
 }
 
@@ -87,6 +87,7 @@ function draw() {
   hero.display();
   rope.display();
   monster.display();
+  bg.display();
 
 }
 function mouseDragged(){
